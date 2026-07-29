@@ -1,0 +1,52 @@
+# Minecraft 服务端核心与运行文件
+/*.jar
+/eula.txt
+/server.properties
+/server-icon.png
+/permissions.yml
+/help.yml
+/commands.yml
+/bukkit.yml
+/spigot.yml
+/paper*.yml
+/velocity*.toml
+
+# 世界与玩家数据
+/world/
+/world_nether/
+/world_the_end/
+/world_*/
+/universe/
+/playerdata/
+/stats/
+/advancements/
+/ops.json
+/whitelist.json
+/usercache.json
+/banned-players.json
+/banned-ips.json
+
+# 服务端依赖、插件与模组
+/libraries/
+/versions/
+/plugins/
+/mods/
+/config/
+/cache/
+
+# 日志、崩溃报告与备份
+/logs/
+/crash-reports/
+/backups/
+*.log
+hs_err_pid*.log
+replay_pid*.log
+*.tmp
+
+# 操作系统与编辑器文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+
